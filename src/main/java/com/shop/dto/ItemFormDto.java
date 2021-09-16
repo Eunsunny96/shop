@@ -24,10 +24,10 @@ public class ItemFormDto {
 	private Integer price;
 
 	@NotBlank(message = "이름은 필수 입력값입니다.")
-	private String itmeDetail;
+	private String itemDetail;
 
 	@NotNull(message = "재고는 필수 입력값 입니다")
-	private Integer stockNember;
+	private Integer stockNumber;
 
 	private ItemSellStatus itemSellStatus;
 
